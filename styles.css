@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #8a7668; /* Classic, muted tone for header */
+    background-color: #333; /* Classic, muted tone for header */
     color: white;
     text-align: center;
     padding: 1em 0;
