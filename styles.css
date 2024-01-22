@@ -6,14 +6,15 @@ body, h1, h2, p {
 
 /* Apply basic styling */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: "Times New Roman", serif;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
 header {
-    background-color: #0077b6;
+    background-color: #1e2c39;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -29,13 +30,38 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 
-/* Add more styling for other sections, such as services, about, and contact */
+/* Styling for sections */
+section {
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
+h1, h2 {
+    font-family: "Georgia", serif;
+    color: #333;
+}
+
+/* Styling for the footer */
 footer {
-    background-color: #0077b6;
+    background-color: #1e2c39;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 20px 0;
 }
+
+/* Advanced styling for the technology background */
+.technology-background {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Add more CSS styles to achieve a classic and chic look */
