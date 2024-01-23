@@ -1,105 +1,101 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f0ec; /* Classic and elegant background color */
-    color: #333; /* Dark grey text for elegance and readability */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
 header {
-    background-color: #333; /* Classic, muted tone for header */
+    background-color: #222;
     color: white;
-    text-align: center;
-    padding: 1em 0;
+    padding: 10px 0;
 }
 
-nav {
-    display: block;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: inline-block; /* Center the navigation menu */
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
+.logo {
+    font-size: 24px;
+    font-weight: bold;
     text-decoration: none;
+    color: white;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
-main {
-    margin: 2em 5%;
-    text-align: center;
-}
-
-h1, h2 {
-    color: #5a5a5a; /* Slightly lighter grey for headers */
-}
-
-section {
-    margin-bottom: 2em;
-}
-
-footer {
-    background-color: #333; /* Matching the header */
+/* Hero section styles */
+.hero {
+    background-image: url('images/hero-image.jpg'); /* Replace with your image URL */
+    background-size: cover;
     color: white;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    padding: 200px 0;
 }
 
-/* Responsive design for smaller screens */
-@media (max-width: 600px) {
-    nav ul {
-        display: block;
-    }
-
-    nav ul li {
-        display: block;
-        text-align: center;
-        margin: 0.5em 0;
-    }
+.hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
-/* Additional styling for form elements in contact.html */
-input[type="text"], input[type="email"], textarea {
-    width: 100%;
-    padding: 8px;
-    margin: 10px 0;
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
     display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    padding: 10px 20px;
+    background-color: #FFC20E;
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
-input[type="submit"] {
-    width: 100%;
-    background-color: #4CAF50; /* Green background for submit button */
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+.cta-button:hover {
+    background-color: #FFD93E;
 }
 
-input[type="submit"]:hover {
-    background-color: #45a049;
+/* Services section styles (similar styles can be applied to other sections) */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
 }
 
-/* Styling for images, if needed */
-img {
-    max-width: 100%;
-    height: auto;
+.services h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }
+
+.services p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Add more CSS styles to achieve a design similar to https://www.evanheadspa.com/ */
